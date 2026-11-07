@@ -1,0 +1,4 @@
+﻿"grouping_factor","groups","min_observations","max_observations","min_condition_levels","max_condition_levels","min_typicality_levels","max_typicality_levels","min_combinations","max_combinations"
+"participant",80,21,24,2,2,16,21,17,22
+"target_item",24,67,80,2,2,2,2,4,4
+"picture_file",48,27,40,2,2,1,1,2,2

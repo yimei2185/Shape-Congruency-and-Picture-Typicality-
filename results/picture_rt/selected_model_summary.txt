@@ -1,0 +1,55 @@
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: formula
+   Data: data
+Control: lmm_control
+
+REML criterion at convergence: 2103.3
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.6045 -0.6302 -0.0889  0.5259  3.9951 
+
+Random effects:
+ Groups        Name                 Variance  Std.Dev.
+ participant   picture_typicality_c 0.0006872 0.02621 
+ participant.1 condition_c          0.0052674 0.07258 
+ participant.2 (Intercept)          0.0642089 0.25339 
+ picture_file  (Intercept)          0.0041085 0.06410 
+ target_item   language_c           0.0055685 0.07462 
+ target_item.1 (Intercept)          0.0031149 0.05581 
+ Residual                           0.0889145 0.29819 
+Number of obs: 3434, groups:  
+participant, 157; picture_file, 48; target_item, 24
+
+Fixed effects:
+                                              Estimate Std. Error         df
+(Intercept)                                  6.666e+00  2.552e-02  1.114e+02
+language_c                                   2.807e-01  4.446e-02  1.551e+02
+condition_c                                  1.956e-02  1.180e-02  1.466e+02
+picture_typicality_c                        -7.290e-02  1.034e-02  3.071e+01
+language_c:condition_c                      -2.540e-02  2.360e-02  1.466e+02
+language_c:picture_typicality_c             -6.307e-03  1.088e-02  1.745e+02
+condition_c:picture_typicality_c            -5.890e-03  9.285e-03  2.983e+03
+language_c:condition_c:picture_typicality_c -4.030e-02  1.856e-02  2.992e+03
+                                            t value Pr(>|t|)    
+(Intercept)                                 261.174  < 2e-16 ***
+language_c                                    6.315 2.72e-09 ***
+condition_c                                   1.658   0.0995 .  
+picture_typicality_c                         -7.054 6.73e-08 ***
+language_c:condition_c                       -1.076   0.2836    
+language_c:picture_typicality_c              -0.580   0.5628    
+condition_c:picture_typicality_c             -0.634   0.5258    
+language_c:condition_c:picture_typicality_c  -2.171   0.0300 *  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Correlation of Fixed Effects:
+            (Intr) lngg_c cndtn_ pctr__ lng_:_ ln_:__ cn_:__
+language_c   0.019                                          
+condition_c  0.002  0.003                                   
+pctr_typcl_ -0.001  0.001 -0.003                            
+lngg_c:cnd_  0.002  0.003  0.075  0.001                     
+lngg_c:pc__  0.002 -0.002  0.003  0.033 -0.005              
+cndtn_c:p__ -0.002  0.000 -0.011  0.004  0.010  0.007       
+lngg_c:_:__  0.000 -0.002  0.011  0.004 -0.010  0.010  0.080

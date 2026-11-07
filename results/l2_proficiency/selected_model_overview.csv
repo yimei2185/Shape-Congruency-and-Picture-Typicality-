@@ -1,0 +1,2 @@
+﻿"analysis","selected_candidate","final_formula","observations","singular","convergence_message","marginal_r2","conditional_r2"
+"l2_proficiency","M8_drop_participant_typicality","log_picture_rt ~ proficiency_z * condition_c * picture_typicality_c +      ((1 | participant) + (0 + condition_c | participant)) + (1 |      target_item) + (1 | picture_file)",1572,FALSE,"",0.05588206689848871,0.46866370273565927

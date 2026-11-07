@@ -1,0 +1,2 @@
+﻿"analysis","selected_candidate","final_formula","observations","singular","convergence_message","marginal_r2","conditional_r2"
+"accuracy","M9_random_intercepts","accuracy ~ language_c * condition_c * picture_typicality_c +      (1 | participant) + (1 | target_item) + (1 | picture_file)",3492,FALSE,"",0.25334495510140553,0.4754557651764914

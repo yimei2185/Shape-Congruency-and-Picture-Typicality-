@@ -1,0 +1,46 @@
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: formula
+   Data: data
+Control: lmm_control
+
+REML criterion at convergence: 3908.3
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-5.5427 -0.6326 -0.1084  0.5396  5.7676 
+
+Random effects:
+ Groups      Name        Variance Std.Dev.
+ participant (Intercept) 0.174593 0.41784 
+ sentence_id (Intercept) 0.002678 0.05175 
+ target_item (Intercept) 0.002787 0.05279 
+ Residual                0.153346 0.39159 
+Number of obs: 3434, groups:  
+participant, 157; sentence_id, 48; target_item, 24
+
+Fixed effects:
+                                           Estimate Std. Error         df
+(Intercept)                               7.243e+00  3.648e-02  1.636e+02
+language_c                                1.144e+00  6.808e-02  1.540e+02
+sentence_implied_typicality_c            -7.053e-03  9.603e-03  2.762e+01
+sentence_length_c                         5.524e-02  2.033e-02  4.381e+01
+trial_order_c                            -4.922e-03  2.417e-04  3.235e+03
+language_c:sentence_implied_typicality_c -7.881e-03  1.207e-02  3.239e+03
+                                         t value Pr(>|t|)    
+(Intercept)                              198.569  < 2e-16 ***
+language_c                                16.799  < 2e-16 ***
+sentence_implied_typicality_c             -0.734  0.46884    
+sentence_length_c                          2.718  0.00938 ** 
+trial_order_c                            -20.363  < 2e-16 ***
+language_c:sentence_implied_typicality_c  -0.653  0.51401    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Correlation of Fixed Effects:
+            (Intr) lngg_c snt___ sntn__ trl_r_
+language_c   0.021                            
+sntnc_mpl__  0.001  0.000                     
+sntnc_lngt_  0.000  0.000 -0.030              
+trial_rdr_c  0.000  0.000 -0.001  0.001       
+lngg_c:s___  0.001  0.002  0.049 -0.003  0.019

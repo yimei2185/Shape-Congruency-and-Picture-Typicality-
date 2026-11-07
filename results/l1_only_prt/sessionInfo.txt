@@ -1,0 +1,44 @@
+R version 4.4.1 (2024-06-14 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 26200)
+
+Matrix products: default
+
+
+locale:
+[1] C
+system code page: 65001
+
+time zone: Asia/Shanghai
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] MuMIn_1.48.11       emmeans_2.0.3       broom.mixed_0.2.9.6
+[4] lmerTest_3.1-3      lme4_1.1-35.5       Matrix_1.7-0       
+[7] dplyr_1.1.4         readr_2.1.5        
+
+loaded via a namespace (and not attached):
+ [1] sandwich_3.1-1      utf8_1.2.4          future_1.67.0      
+ [4] generics_0.1.3      tidyr_1.3.2         lattice_0.22-6     
+ [7] listenv_0.10.0      hms_1.1.3           digest_0.6.37      
+[10] magrittr_2.0.3      grid_4.4.1          estimability_1.5.1 
+[13] RColorBrewer_1.1-3  mvtnorm_1.3-3       backports_1.5.0    
+[16] survival_3.6-4      multcomp_1.4-31     purrr_1.2.1        
+[19] fansi_1.0.6         scales_1.4.0        TH.data_1.1-5      
+[22] codetools_0.2-20    numDeriv_2016.8-1.1 cli_3.6.3          
+[25] crayon_1.5.3        rlang_1.1.4         parallelly_1.45.1  
+[28] bit64_4.6.0-1       splines_4.4.1       withr_3.0.2        
+[31] tools_4.4.1         parallel_4.4.1      tzdb_0.5.0         
+[34] coda_0.19-4.1       nloptr_2.1.1        minqa_1.2.8        
+[37] ggplot2_4.0.3       forcats_1.0.1       boot_1.3-30        
+[40] globals_0.18.0      broom_1.0.10        vctrs_0.6.5        
+[43] R6_2.5.1            stats4_4.4.1        zoo_1.8-14         
+[46] lifecycle_1.0.4     bit_4.6.0           vroom_1.6.6        
+[49] MASS_7.3-60.2       furrr_0.3.1         pkgconfig_2.0.3    
+[52] pillar_1.9.0        gtable_0.3.6        glue_1.8.0         
+[55] Rcpp_1.0.13         tibble_3.3.0        tidyselect_1.2.1   
+[58] xtable_1.8-4        farver_2.1.2        nlme_3.1-164       
+[61] compiler_4.4.1      S7_0.2.0           

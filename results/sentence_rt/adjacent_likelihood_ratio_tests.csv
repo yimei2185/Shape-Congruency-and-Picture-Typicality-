@@ -1,0 +1,6 @@
+﻿"complex_model","simpler_model","chisq","p","note"
+"M1_correlated_full","M2_uncorrelated_full",6.4835669634862825,0.26196573417103547,"ordinary boundary LRT; interpret as approximate"
+"M2_uncorrelated_full","M3_sentence_intercept",0.045725999811566,0.8306746495429341,"ordinary boundary LRT; interpret as approximate"
+"M3_sentence_intercept","M4_drop_item_typicality",0,1,"ordinary boundary LRT; interpret as approximate"
+"M4_drop_item_typicality","M5_item_intercept",14.412380088386271,1.468338192653993e-4,"ordinary boundary LRT; interpret as approximate"
+"M5_item_intercept","M6_random_intercepts",1.0459189070388675e-11,0.9999974195879079,"ordinary boundary LRT; interpret as approximate"

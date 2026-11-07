@@ -1,0 +1,53 @@
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: formula
+   Data: data
+Control: lmm_control
+
+REML criterion at convergence: 1367.6
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-2.3760 -0.6693 -0.1053  0.5494  3.3786 
+
+Random effects:
+ Groups        Name        Variance Std.Dev.
+ participant   condition_c 0.011578 0.10760 
+ participant.1 (Intercept) 0.073783 0.27163 
+ picture_file  (Intercept) 0.002399 0.04898 
+ target_item   (Intercept) 0.008766 0.09363 
+ Residual                  0.113071 0.33626 
+Number of obs: 1572, groups:  
+participant, 77; picture_file, 48; target_item, 24
+
+Fixed effects:
+                                                 Estimate Std. Error         df
+(Intercept)                                     6.807e+00  3.808e-02  8.325e+01
+proficiency_z                                  -6.609e-02  3.238e-02  7.358e+01
+condition_c                                     8.252e-03  2.115e-02  7.379e+01
+picture_typicality_c                           -7.672e-02  1.089e-02  2.211e+01
+proficiency_z:condition_c                       1.336e-03  2.136e-02  7.421e+01
+proficiency_z:picture_typicality_c              2.990e-03  7.732e-03  1.401e+03
+condition_c:picture_typicality_c               -2.812e-02  1.545e-02  1.400e+03
+proficiency_z:condition_c:picture_typicality_c  6.664e-03  1.548e-02  1.393e+03
+                                               t value Pr(>|t|)    
+(Intercept)                                    178.774  < 2e-16 ***
+proficiency_z                                   -2.041   0.0449 *  
+condition_c                                      0.390   0.6975    
+picture_typicality_c                            -7.042 4.45e-07 ***
+proficiency_z:condition_c                        0.063   0.9503    
+proficiency_z:picture_typicality_c               0.387   0.6990    
+condition_c:picture_typicality_c                -1.821   0.0689 .  
+proficiency_z:condition_c:picture_typicality_c   0.430   0.6669    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Correlation of Fixed Effects:
+            (Intr) prfcn_ cndtn_ pctr__ prf_:_ pr_:__ cn_:__
+proficncy_z -0.008                                          
+condition_c  0.005 -0.004                                   
+pctr_typcl_  0.000 -0.003 -0.002                            
+prfcncy_z:_ -0.003  0.008 -0.077  0.006                     
+prfcncy_:__ -0.005  0.005  0.006 -0.067 -0.019              
+cndtn_c:p__ -0.002  0.002  0.003  0.012 -0.013 -0.001       
+prfcn_:_:__  0.001 -0.007 -0.013 -0.001  0.009  0.032 -0.099

@@ -1,0 +1,2 @@
+﻿"analysis","selected_candidate","final_formula","observations","singular","convergence_message","marginal_r2","conditional_r2"
+"picture_rt","M6_drop_item_condition","log_picture_rt ~ language_c * condition_c * picture_typicality_c +      ((1 | participant) + (0 + condition_c | participant) + (0 +          picture_typicality_c | participant)) + ((1 | target_item) +      (0 + language_c | target_item)) + (1 | picture_file)",3434,FALSE,"",0.1394311790998955,0.533154388863721

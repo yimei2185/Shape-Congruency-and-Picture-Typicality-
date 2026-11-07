@@ -1,0 +1,2 @@
+﻿"analysis","selected_candidate","final_formula","observations","singular","convergence_message","marginal_r2","conditional_r2"
+"sentence_rt","M6_random_intercepts","log_sentence_rt ~ language_c * sentence_implied_typicality_c +      sentence_length_c + trial_order_c + (1 | participant) + (1 |      target_item) + (1 | sentence_id)",3434,FALSE,"",0.5081189459199473,0.7737638803673959

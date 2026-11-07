@@ -1,0 +1,54 @@
+Generalized linear mixed model fit by maximum likelihood (Laplace
+  Approximation) [glmerMod]
+ Family: binomial  ( logit )
+Formula: accuracy ~ language_c * condition_c * picture_typicality_c +  
+    (1 | participant) + (1 | target_item) + (1 | picture_file)
+   Data: data
+Control: glmm_control
+
+     AIC      BIC   logLik deviance df.resid 
+   555.7    623.5   -266.9    533.7     3481 
+
+Scaled residuals: 
+     Min       1Q   Median       3Q      Max 
+-17.4303   0.0449   0.0882   0.1312   0.4794 
+
+Random effects:
+ Groups       Name        Variance Std.Dev.
+ participant  (Intercept) 0.7167   0.8466  
+ picture_file (Intercept) 0.2171   0.4660  
+ target_item  (Intercept) 0.4592   0.6777  
+Number of obs: 3492, groups:  
+participant, 157; picture_file, 48; target_item, 24
+
+Fixed effects:
+                                            Estimate Std. Error z value
+(Intercept)                                  5.15255    0.36707  14.037
+language_c                                  -1.83506    0.46017  -3.988
+condition_c                                 -0.17548    0.43135  -0.407
+picture_typicality_c                         0.36106    0.18610   1.940
+language_c:condition_c                      -1.06036    0.86479  -1.226
+language_c:picture_typicality_c             -1.08798    0.33966  -3.203
+condition_c:picture_typicality_c             0.58273    0.32957   1.768
+language_c:condition_c:picture_typicality_c  0.04534    0.65238   0.070
+                                            Pr(>|z|)    
+(Intercept)                                  < 2e-16 ***
+language_c                                  6.67e-05 ***
+condition_c                                  0.68415    
+picture_typicality_c                         0.05237 .  
+language_c:condition_c                       0.22015    
+language_c:picture_typicality_c              0.00136 ** 
+condition_c:picture_typicality_c             0.07703 .  
+language_c:condition_c:picture_typicality_c  0.94459    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Correlation of Fixed Effects:
+            (Intr) lngg_c cndtn_ pctr__ lng_:_ ln_:__ cn_:__
+language_c  -0.440                                          
+condition_c  0.088 -0.261                                   
+pctr_typcl_  0.316 -0.506  0.244                            
+lngg_c:cnd_ -0.189  0.161 -0.671 -0.119                     
+lngg_c:pc__ -0.409  0.441 -0.124 -0.434  0.284              
+cndtn_c:p__  0.182 -0.126  0.456 -0.023 -0.586 -0.222       
+lngg_c:_:__ -0.083  0.258 -0.582 -0.160  0.455 -0.058 -0.434
