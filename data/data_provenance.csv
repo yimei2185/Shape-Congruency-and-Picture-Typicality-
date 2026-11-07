@@ -1,0 +1,4 @@
+﻿"packaged_file","source","rows"
+"prt_srt_analysis.csv","outputs/corrected_mixed_models/00_picture_rt_and_srt_model_data.csv",3434
+"accuracy_analysis.csv","outputs/corrected_preprocessing/R_outputs/06_critical_trials_after_target_item_filter.csv + outputs/corrected_preprocessing/R_outputs/07_picture_rt_flags_all_formal_trials.csv",3492
+"l2_proficiency_analysis.csv","outputs/l2_proficiency_congruency_r_threeway/00_l2_threeway_model_data.csv",1572
